@@ -43,23 +43,35 @@ class AddPaymentViewController: UIViewController  {
     @IBAction func saveTapped(_ sender: UIButton) {
         
         guard let cardNumber = txtFieldCardNumber.text else {
+            self.displayAlert(message: "Invalid Card Number!", buttonTitle: "Ok", vc: self)
             return
         }
         guard let validTill = txtFieldValidTill.text else {
+            self.displayAlert(message: "Invalid Valid Till!", buttonTitle: "Ok", vc: self)
             return
         }
         guard let cvv = Int(txtFieldCVV.text!) else {
+            self.displayAlert(message: "Invalid CVV!", buttonTitle: "Ok", vc: self)
             return
         }
         guard let zipcode = txtFieldZipCode.text else {
+            self.displayAlert(message: "Invalid Zip Code!", buttonTitle: "Ok", vc: self)
             return
         }
         
-        let card = CreditCard(name: "Visa",
+        let creditCardValidator = CreditCardValidator()
+        let result = creditCardValidator.checkCardNumber(input: cardNumber)
+        
+        if (!result.valid) {
+            self.displayAlert(message: "Invalid Valid Till!", buttonTitle: "Ok", vc: self)
+            return
+        }
+        
+        let card = CreditCard(name: result.type.rawValue,
                               type: PaymentMethodType.CREDIT_CARD,
                               image: UIImage(named: "visa")!,
                               isDefault: false,
-                              number: cardNumber,
+                              number: result.formatted,
                               validTill: validTill,
                               cvv: cvv,
                               zipcode: zipcode)
@@ -70,6 +82,17 @@ class AddPaymentViewController: UIViewController  {
        // self.performSegue(withIdentifier: "BackPaymentsSegue", sender: nil)
         
     }
+    
+    func displayAlert(message: String, buttonTitle: String, vc: UIViewController)
+    {
+        let alertController = UIAlertController(title: "", message: message, preferredStyle: .alert)
+        
+        let OKAction = UIAlertAction(title: buttonTitle, style: .default, handler: nil)
+        alertController.addAction(OKAction)
+        
+        vc.present(alertController, animated: true, completion: nil)
+    }
+
 }
 
 protocol PaymentMethodAddedDelegate {

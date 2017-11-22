@@ -70,6 +70,7 @@
 		3A71CD2E1FC4B370000287FA /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD2D1FC4B370000287FA /* WebViewViewController.swift */; };
 		3A71CD301FC4B419000287FA /* AdvisorFullCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD2F1FC4B419000287FA /* AdvisorFullCarouselView.swift */; };
 		3A71CD321FC4B470000287FA /* AdvisorCarouselViewNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD311FC4B470000287FA /* AdvisorCarouselViewNew.xib */; };
+		3A877E841FC5BBD9000D95E4 /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A877E831FC5BBD9000D95E4 /* CreditCardValidator.swift */; };
 		3AB3BD7F1FC4D13E000AD8E2 /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD7E1FC4D13E000AD8E2 /* Announcements.swift */; };
 		3AB3BD811FC4D16C000AD8E2 /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD801FC4D16C000AD8E2 /* AnnouncementsViewController.swift */; };
 		3AB3BD841FC4D1D0000AD8E2 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD831FC4D1D0000AD8E2 /* AppointmentsViewController.swift */; };
@@ -186,6 +187,7 @@
 		3A71CD2D1FC4B370000287FA /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		3A71CD2F1FC4B419000287FA /* AdvisorFullCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorFullCarouselView.swift; sourceTree = "<group>"; };
 		3A71CD311FC4B470000287FA /* AdvisorCarouselViewNew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvisorCarouselViewNew.xib; sourceTree = "<group>"; };
+		3A877E831FC5BBD9000D95E4 /* CreditCardValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardValidator.swift; sourceTree = "<group>"; };
 		3AB3BD7E1FC4D13E000AD8E2 /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
 		3AB3BD801FC4D16C000AD8E2 /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
 		3AB3BD831FC4D1D0000AD8E2 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				3A2483BD1FC51D9A006AD8FD /* PaymentsTableViewCell.swift */,
 				3A2483BF1FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift */,
 				3A2483C11FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift */,
+				3A877E831FC5BBD9000D95E4 /* CreditCardValidator.swift */,
 			);
 			path = Payments;
 			sourceTree = "<group>";
@@ -796,6 +799,7 @@
 				3A71CA6C1FC48EF4000287FA /* MainViewController.swift in Sources */,
 				3A71CCE31FC4991D000287FA /* UIViewController+ECSlidingViewController.m in Sources */,
 				3A71CCE61FC4991D000287FA /* ECSlidingViewController.m in Sources */,
+				3A877E841FC5BBD9000D95E4 /* CreditCardValidator.swift in Sources */,
 				3A71CCE71FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				3A2483C01FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift in Sources */,
 				3AB3BD8B1FC4D768000AD8E2 /* MyVaultViewController.swift in Sources */,
