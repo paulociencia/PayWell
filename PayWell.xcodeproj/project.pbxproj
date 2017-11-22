@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		3A1BCFDE1FC4B57100077FE2 /* AdvisorFullCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BCFDD1FC4B57100077FE2 /* AdvisorFullCarouselView.xib */; };
 		3A1BCFE01FC4B69E00077FE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BCFDF1FC4B69E00077FE2 /* LaunchScreen.xib */; };
+		3A2483AA1FC51847006AD8FD /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483A91FC51847006AD8FD /* EditNoteViewController.swift */; };
+		3A2483AC1FC51878006AD8FD /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483AB1FC51878006AD8FD /* NotesViewController.swift */; };
+		3A2483AE1FC518B1006AD8FD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2483AD1FC51897006AD8FD /* LocalAuthentication.framework */; };
+		3A2483B11FC51B56006AD8FD /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483B01FC51B56006AD8FD /* ImagePickerViewController.swift */; };
+		3A2483B31FC51B86006AD8FD /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483B21FC51B86006AD8FD /* FaceViewController.swift */; };
+		3A2483B51FC51BAF006AD8FD /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483B41FC51BAF006AD8FD /* ImageViewController.swift */; };
+		3A2483B81FC51CDE006AD8FD /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483B71FC51CDE006AD8FD /* PaymentsViewController.swift */; };
+		3A2483BA1FC51D1B006AD8FD /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483B91FC51D1B006AD8FD /* AddPaymentViewController.swift */; };
+		3A2483BC1FC51D51006AD8FD /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483BB1FC51D51006AD8FD /* PaymentMethod.swift */; };
+		3A2483BE1FC51D9A006AD8FD /* PaymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483BD1FC51D9A006AD8FD /* PaymentsTableViewCell.swift */; };
+		3A2483C01FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483BF1FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift */; };
+		3A2483C21FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2483C11FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift */; };
 		3A71CA6A1FC48EF4000287FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA691FC48EF4000287FA /* AppDelegate.swift */; };
 		3A71CA6C1FC48EF4000287FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA6B1FC48EF4000287FA /* MainViewController.swift */; };
 		3A71CA6F1FC48EF4000287FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CA6D1FC48EF4000287FA /* Main.storyboard */; };
@@ -98,6 +110,18 @@
 		28613E981D24E9A55B0467D8 /* Pods-PayWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayWell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayWell/Pods-PayWell.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1BCFDD1FC4B57100077FE2 /* AdvisorFullCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvisorFullCarouselView.xib; sourceTree = "<group>"; };
 		3A1BCFDF1FC4B69E00077FE2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		3A2483A91FC51847006AD8FD /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		3A2483AB1FC51878006AD8FD /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		3A2483AD1FC51897006AD8FD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		3A2483B01FC51B56006AD8FD /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		3A2483B21FC51B86006AD8FD /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		3A2483B41FC51BAF006AD8FD /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3A2483B71FC51CDE006AD8FD /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		3A2483B91FC51D1B006AD8FD /* AddPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
+		3A2483BB1FC51D51006AD8FD /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		3A2483BD1FC51D9A006AD8FD /* PaymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewCell.swift; sourceTree = "<group>"; };
+		3A2483BF1FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPaymentMethodViewController.swift; sourceTree = "<group>"; };
+		3A2483C11FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodTableViewCell.swift; sourceTree = "<group>"; };
 		3A71CA661FC48EF4000287FA /* PayWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A71CA691FC48EF4000287FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A71CA6B1FC48EF4000287FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2483AE1FC518B1006AD8FD /* LocalAuthentication.framework in Frameworks */,
 				D369454252817FE0EACE7BF6 /* Pods_PayWell.framework in Frameworks */,
 				DBD21D32D68C8227835305A1 /* Pods_Generic_PayWell.framework in Frameworks */,
 			);
@@ -222,6 +247,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3A2483A81FC51820006AD8FD /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				3A2483A91FC51847006AD8FD /* EditNoteViewController.swift */,
+				3A2483AB1FC51878006AD8FD /* NotesViewController.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		3A2483AF1FC51B36006AD8FD /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				3A2483B01FC51B56006AD8FD /* ImagePickerViewController.swift */,
+				3A2483B21FC51B86006AD8FD /* FaceViewController.swift */,
+				3A2483B41FC51BAF006AD8FD /* ImageViewController.swift */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		3A2483B61FC51CBD006AD8FD /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				3A2483B71FC51CDE006AD8FD /* PaymentsViewController.swift */,
+				3A2483B91FC51D1B006AD8FD /* AddPaymentViewController.swift */,
+				3A2483BB1FC51D51006AD8FD /* PaymentMethod.swift */,
+				3A2483BD1FC51D9A006AD8FD /* PaymentsTableViewCell.swift */,
+				3A2483BF1FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift */,
+				3A2483C11FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
 		3A71CA5D1FC48EF4000287FA = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +304,9 @@
 		3A71CA681FC48EF4000287FA /* PayWell */ = {
 			isa = PBXGroup;
 			children = (
+				3A2483B61FC51CBD006AD8FD /* Payments */,
+				3A2483AF1FC51B36006AD8FD /* Face */,
+				3A2483A81FC51820006AD8FD /* Notes */,
 				3AF7A4D41FC4DBE900922B76 /* Statements */,
 				3AB3BD891FC4D72A000AD8E2 /* My Vault */,
 				3AB3BD821FC4D1B2000AD8E2 /* Appointments */,
@@ -481,6 +541,7 @@
 		4D74DA12B1E7C60446F1E5D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A2483AD1FC51897006AD8FD /* LocalAuthentication.framework */,
 				67F8A498070B78F2DBAA5812 /* Pods_PayWell.framework */,
 				756D1DF9D3F2CC13ED0E6969 /* Pods_PayWellTests.framework */,
 				4836BD4897B36824DD4652A3 /* Pods_PayWellUITests.framework */,
@@ -635,9 +696,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/UrbanAirship-iOS-SDK/AirshipResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -704,6 +768,7 @@
 				3AF7A4D81FC4DC4E00922B76 /* StatementsCollectionViewCell.swift in Sources */,
 				3A71CCC71FC495D9000287FA /* LoginViewController.swift in Sources */,
 				3A71CD191FC4B021000287FA /* TopListView.swift in Sources */,
+				3A2483B51FC51BAF006AD8FD /* ImageViewController.swift in Sources */,
 				3AF7A4DC1FC4DC9C00922B76 /* TaxStatementsViewController.swift in Sources */,
 				3A71CCF21FC49D24000287FA /* DashboardViewController.swift in Sources */,
 				3AB3BD861FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift in Sources */,
@@ -715,6 +780,7 @@
 				3A71CD0D1FC4AC76000287FA /* Notifications.swift in Sources */,
 				3AF7A4E21FC4DD0900922B76 /* StatementsViewController.swift in Sources */,
 				3A71CD151FC4AF3E000287FA /* AlertsViewController.swift in Sources */,
+				3A2483B81FC51CDE006AD8FD /* PaymentsViewController.swift in Sources */,
 				3A71CD071FC4AB1B000287FA /* Alerts.swift in Sources */,
 				3A71CD0F1FC4AE4A000287FA /* AdvisorViewController.swift in Sources */,
 				3AF7A4E01FC4DCE800922B76 /* BrokerageViewController.swift in Sources */,
@@ -724,35 +790,44 @@
 				3A71CCFF1FC4A275000287FA /* Holding.swift in Sources */,
 				3A71CD041FC4AA1F000287FA /* Account.swift in Sources */,
 				3AF7A4DE1FC4DCC400922B76 /* QPRViewController.swift in Sources */,
+				3A2483B31FC51B86006AD8FD /* FaceViewController.swift in Sources */,
 				3A71CD2C1FC4B316000287FA /* AlertsTableViewCell.swift in Sources */,
 				3A71CCE41FC4991D000287FA /* ECSlidingInteractiveTransition.m in Sources */,
 				3A71CA6C1FC48EF4000287FA /* MainViewController.swift in Sources */,
 				3A71CCE31FC4991D000287FA /* UIViewController+ECSlidingViewController.m in Sources */,
 				3A71CCE61FC4991D000287FA /* ECSlidingViewController.m in Sources */,
 				3A71CCE71FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				3A2483C01FC51DBD006AD8FD /* SelectPaymentMethodViewController.swift in Sources */,
 				3AB3BD8B1FC4D768000AD8E2 /* MyVaultViewController.swift in Sources */,
 				3A71CCE51FC4991D000287FA /* CustomSlidingViewController.swift in Sources */,
 				3A71CD111FC4AEB9000287FA /* HoldingsViewController.swift in Sources */,
 				3AF7A4D61FC4DC0600922B76 /* StatementsBaseViewController.swift in Sources */,
+				3A2483C21FC51DE0006AD8FD /* PaymentMethodTableViewCell.swift in Sources */,
 				3A71CCE21FC4991D000287FA /* ECSlidingSegue.m in Sources */,
 				3AB3BD7F1FC4D13E000AD8E2 /* Announcements.swift in Sources */,
 				3A71CA721FC48EF4000287FA /* PayWell.xcdatamodeld in Sources */,
+				3A2483BC1FC51D51006AD8FD /* PaymentMethod.swift in Sources */,
 				3A71CCEF1FC49C7F000287FA /* AgentMessage.swift in Sources */,
 				3A71CA6A1FC48EF4000287FA /* AppDelegate.swift in Sources */,
 				3A71CCE01FC4991D000287FA /* UINavigationController+Orientation.m in Sources */,
 				3A71CCF71FC4A04B000287FA /* UIColor+Custom.swift in Sources */,
+				3A2483BA1FC51D1B006AD8FD /* AddPaymentViewController.swift in Sources */,
 				3A71CCCD1FC49780000287FA /* RestAPIManager.swift in Sources */,
 				3A71CCC91FC496C0000287FA /* LoginTableViewCell.swift in Sources */,
 				3A71CD1B1FC4B06B000287FA /* AdvisorCarouselView.swift in Sources */,
 				3A71CD171FC4AFDE000287FA /* AccountCarouselView.swift in Sources */,
 				3AB3BD841FC4D1D0000AD8E2 /* AppointmentsViewController.swift in Sources */,
+				3A2483B11FC51B56006AD8FD /* ImagePickerViewController.swift in Sources */,
 				3A71CCED1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift in Sources */,
 				3AF7A4DA1FC4DC7300922B76 /* TradeConfirmationsViewController.swift in Sources */,
 				3A71CCF91FC4A075000287FA /* Double+Utils.swift in Sources */,
+				3A2483AA1FC51847006AD8FD /* EditNoteViewController.swift in Sources */,
 				3AB3BD881FC4D237000AD8E2 /* Appointment.swift in Sources */,
 				3A71CD2E1FC4B370000287FA /* WebViewViewController.swift in Sources */,
 				3A71CCFC1FC4A226000287FA /* Advisor.swift in Sources */,
+				3A2483AC1FC51878006AD8FD /* NotesViewController.swift in Sources */,
 				3A71CD0A1FC4ABDA000287FA /* News.swift in Sources */,
+				3A2483BE1FC51D9A006AD8FD /* PaymentsTableViewCell.swift in Sources */,
 				3A71CD1E1FC4B105000287FA /* LatestAlertsCarouselView.swift in Sources */,
 				3A71CCE11FC4991D000287FA /* ECSlidingAnimationController.m in Sources */,
 			);
@@ -918,7 +993,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
 				INFOPLIST_FILE = PayWell/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paywell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -939,7 +1014,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
 				INFOPLIST_FILE = PayWell/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paywell;
 				PRODUCT_NAME = "$(TARGET_NAME)";

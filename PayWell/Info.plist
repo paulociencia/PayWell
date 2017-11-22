@@ -22,10 +22,6 @@
 	<string>0.0.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>$(PRODUCT_NAME) microphone use.</string>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>$(PRODUCT_NAME) speech recognition use.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -43,5 +39,29 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>http://assetmark.genesis.global:8082</key>
+            <string></string>
+        </dict>
+    </dict>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>$(PRODUCT_NAME) speech recognition use.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>$(PRODUCT_NAME) microphone use.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Access to the camera is needed in order to be able to take a photo to be analyzed by the app</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Access to the photo library is needed in order to be able to choose a photo to be analyzed by the app</string>
 </dict>
 </plist>

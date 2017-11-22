@@ -25,7 +25,7 @@ class MainViewController: UIViewController {
     
     func populateArray() {
         
-        self.addItem(FAKFontAwesome.tachometerIcon(withSize: 18), withTitle:"Dashboard", andSegue:"MyAccount")
+     /*   self.addItem(FAKFontAwesome.tachometerIcon(withSize: 18), withTitle:"Dashboard", andSegue:"MyAccount")
         self.addItem(FAKFontAwesome.moneyIcon(withSize: 18), withTitle:"Holdings", andSegue:"HoldingsSegue")
         self.addItem(FAKFontAwesome.dollarIcon(withSize: 18), withTitle:"Statements", andSegue:"StatementsSegue")
         self.addItem(FAKFontAwesome.fileIcon(withSize: 18), withTitle:"My Vault", andSegue:"MyVaultSegue")
@@ -35,6 +35,16 @@ class MainViewController: UIViewController {
         self.addItem(FAKFontAwesome.bellIcon(withSize: 18), withTitle:"Alerts", andSegue:"AlertsSegue")
         self.addItem(FAKFontAwesome.bullhornIcon(withSize: 18), withTitle:"Announcements", andSegue:"AnnouncementsSegue")
         self.addItem(FAKFontAwesome.microphoneIcon(withSize: 18), withTitle:"Interactive Agent", andSegue:"InteractiveAgent") // TODO: update segue
+        self.addItem(FAKFontAwesome.signOutIcon(withSize: 18), withTitle:"Logout", andSegue:"LogoutSegue")
+        */
+        
+        self.addItem(FAKFontAwesome.moneyIcon(withSize: 18), withTitle:"Portador", andSegue:"PortadorSegue")
+        self.addItem(FAKFontAwesome.moneyIcon(withSize: 18), withTitle:"Lojista", andSegue:"LojistaSegue")
+        self.addItem(FAKFontAwesome.moneyIcon(withSize: 18), withTitle:"Payments", andSegue:"PaymentsSegue")
+        self.addItem(FAKFontAwesome.photoIcon(withSize: 18), withTitle:"Identity / Take a Self", andSegue:"IdentitySegue")
+        self.addItem(FAKFontAwesome.qrcodeIcon(withSize: 18), withTitle:"QRCode Reader", andSegue:"QRCodeSegue")
+        self.addItem(FAKFontAwesome.stickyNoteIcon(withSize: 18), withTitle:"Notes", andSegue:"TouchIdSegue")
+        self.addItem(FAKFontAwesome.smileOIcon(withSize: 18), withTitle:"Face ID", andSegue:"FaceIdSegue")
         self.addItem(FAKFontAwesome.signOutIcon(withSize: 18), withTitle:"Logout", andSegue:"LogoutSegue")
     }
     
