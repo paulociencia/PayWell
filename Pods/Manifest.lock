@@ -1,0 +1,49 @@
+PODS:
+  - AI (0.0.8)
+  - Alamofire (4.5.1)
+  - CardIO (5.4.1)
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - iCarousel (1.8.3)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - SwiftyJSON (4.0.0)
+  - UrbanAirship-iOS-SDK (8.6.3)
+
+DEPENDENCIES:
+  - AI
+  - Alamofire
+  - CardIO
+  - Charts
+  - Crashlytics
+  - Fabric
+  - FontAwesomeKit/FontAwesome
+  - iCarousel
+  - NVActivityIndicatorView
+  - SwiftyJSON
+  - UrbanAirship-iOS-SDK
+
+SPEC CHECKSUMS:
+  AI: 73c9a26daeb5362016fd345a2d0ee346919a526f
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UrbanAirship-iOS-SDK: 61bad27cf3ea49e2da7c9a6c469674bf3ac2ffa0
+
+PODFILE CHECKSUM: 160c442890a0ba2cd2ef7031eb8ff4d79f17a4a9
+
+COCOAPODS: 1.3.1

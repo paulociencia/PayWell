@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Medium</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AccountCarouselView" customModule="AssetMark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Holding" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeL-Eg-Me3">
+                    <rect key="frame" x="15" y="15" width="92" height="19.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100,000.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLm-ad-03x">
+                    <rect key="frame" x="15" y="54" width="100.5" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 holdings accounts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHa-G7-XP0">
+                    <rect key="frame" x="260.5" y="32.5" width="104.5" height="14.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHR-UD-MIN">
+                    <rect key="frame" x="342.5" y="18" width="22.5" height="14.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+%2.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7P-v5-wRI">
+                    <rect key="frame" x="123" y="54" width="51" height="20"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.74484592009999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AeL-Eg-Me3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="0gT-l5-Gqn"/>
+                <constraint firstItem="PHa-G7-XP0" firstAttribute="trailing" secondItem="IHR-UD-MIN" secondAttribute="trailing" id="ACi-E5-Pos"/>
+                <constraint firstItem="ZLm-ad-03x" firstAttribute="leading" secondItem="AeL-Eg-Me3" secondAttribute="leading" id="Cab-dr-3id"/>
+                <constraint firstItem="K7P-v5-wRI" firstAttribute="leading" secondItem="ZLm-ad-03x" secondAttribute="trailing" constant="7.5" id="DKS-ZR-dQX"/>
+                <constraint firstItem="K7P-v5-wRI" firstAttribute="baseline" secondItem="ZLm-ad-03x" secondAttribute="baseline" constant="-0.5" id="J1K-nA-f84"/>
+                <constraint firstItem="PHa-G7-XP0" firstAttribute="top" secondItem="IHR-UD-MIN" secondAttribute="bottom" id="L2l-bv-p18"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ZLm-ad-03x" secondAttribute="bottom" constant="15" id="N6h-jY-3lF"/>
+                <constraint firstItem="IHR-UD-MIN" firstAttribute="centerY" secondItem="AeL-Eg-Me3" secondAttribute="centerY" id="P6o-mn-ab6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IHR-UD-MIN" secondAttribute="trailing" constant="10" id="f9x-3L-MQP"/>
+                <constraint firstItem="AeL-Eg-Me3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="txm-Kv-qfM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                    <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="accountType" destination="IHR-UD-MIN" id="RWn-q9-2rO"/>
+                <outlet property="holdingValue" destination="ZLm-ad-03x" id="Yoy-fm-S5N"/>
+                <outlet property="holdingsCount" destination="PHa-G7-XP0" id="Z4M-gR-y2c"/>
+                <outlet property="percentChange" destination="K7P-v5-wRI" id="p44-7z-ALf"/>
+                <outlet property="title" destination="AeL-Eg-Me3" id="gQU-eV-jrn"/>
+            </connections>
+            <point key="canvasLocation" x="-12.5" y="-114"/>
+        </view>
+    </objects>
+</document>
+

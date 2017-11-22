@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1BCFDE1FC4B57100077FE2 /* AdvisorFullCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BCFDD1FC4B57100077FE2 /* AdvisorFullCarouselView.xib */; };
+		3A1BCFE01FC4B69E00077FE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BCFDF1FC4B69E00077FE2 /* LaunchScreen.xib */; };
+		3A71CA6A1FC48EF4000287FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA691FC48EF4000287FA /* AppDelegate.swift */; };
+		3A71CA6C1FC48EF4000287FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA6B1FC48EF4000287FA /* MainViewController.swift */; };
+		3A71CA6F1FC48EF4000287FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CA6D1FC48EF4000287FA /* Main.storyboard */; };
+		3A71CA721FC48EF4000287FA /* PayWell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA701FC48EF4000287FA /* PayWell.xcdatamodeld */; };
+		3A71CA741FC48EF4000287FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CA731FC48EF4000287FA /* Assets.xcassets */; };
+		3A71CA821FC48EF4000287FA /* PayWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA811FC48EF4000287FA /* PayWellTests.swift */; };
+		3A71CA8D1FC48EF4000287FA /* PayWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CA8C1FC48EF4000287FA /* PayWellUITests.swift */; };
+		3A71CCC71FC495D9000287FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCC61FC495D9000287FA /* LoginViewController.swift */; };
+		3A71CCC91FC496C0000287FA /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCC81FC496C0000287FA /* LoginTableViewCell.swift */; };
+		3A71CCCD1FC49780000287FA /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCCC1FC49780000287FA /* RestAPIManager.swift */; };
+		3A71CCE01FC4991D000287FA /* UINavigationController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCD21FC4991C000287FA /* UINavigationController+Orientation.m */; };
+		3A71CCE11FC4991D000287FA /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCD51FC4991C000287FA /* ECSlidingAnimationController.m */; };
+		3A71CCE21FC4991D000287FA /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCD61FC4991C000287FA /* ECSlidingSegue.m */; };
+		3A71CCE31FC4991D000287FA /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCD71FC4991C000287FA /* UIViewController+ECSlidingViewController.m */; };
+		3A71CCE41FC4991D000287FA /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCD91FC4991C000287FA /* ECSlidingInteractiveTransition.m */; };
+		3A71CCE51FC4991D000287FA /* CustomSlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCDC1FC4991C000287FA /* CustomSlidingViewController.swift */; };
+		3A71CCE61FC4991D000287FA /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCDD1FC4991D000287FA /* ECSlidingViewController.m */; };
+		3A71CCE71FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCDE1FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m */; };
+		3A71CCEB1FC49C1B000287FA /* InteractiveAgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCEA1FC49C1B000287FA /* InteractiveAgentViewController.swift */; };
+		3A71CCED1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCEC1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift */; };
+		3A71CCEF1FC49C7F000287FA /* AgentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCEE1FC49C7F000287FA /* AgentMessage.swift */; };
+		3A71CCF21FC49D24000287FA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCF11FC49D24000287FA /* DashboardViewController.swift */; };
+		3A71CCF71FC4A04B000287FA /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCF61FC4A04B000287FA /* UIColor+Custom.swift */; };
+		3A71CCF91FC4A075000287FA /* Double+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCF81FC4A075000287FA /* Double+Utils.swift */; };
+		3A71CCFC1FC4A226000287FA /* Advisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCFB1FC4A226000287FA /* Advisor.swift */; };
+		3A71CCFF1FC4A275000287FA /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CCFE1FC4A275000287FA /* Holding.swift */; };
+		3A71CD021FC4A9F2000287FA /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD011FC4A9F2000287FA /* AccountManager.swift */; };
+		3A71CD041FC4AA1F000287FA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD031FC4AA1F000287FA /* Account.swift */; };
+		3A71CD071FC4AB1B000287FA /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD061FC4AB1B000287FA /* Alerts.swift */; };
+		3A71CD0A1FC4ABDA000287FA /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD091FC4ABDA000287FA /* News.swift */; };
+		3A71CD0D1FC4AC76000287FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD0C1FC4AC76000287FA /* Notifications.swift */; };
+		3A71CD0F1FC4AE4A000287FA /* AdvisorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD0E1FC4AE4A000287FA /* AdvisorViewController.swift */; };
+		3A71CD111FC4AEB9000287FA /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD101FC4AEB9000287FA /* HoldingsViewController.swift */; };
+		3A71CD131FC4AF05000287FA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD121FC4AF05000287FA /* NewsViewController.swift */; };
+		3A71CD151FC4AF3E000287FA /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD141FC4AF3E000287FA /* AlertsViewController.swift */; };
+		3A71CD171FC4AFDE000287FA /* AccountCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD161FC4AFDE000287FA /* AccountCarouselView.swift */; };
+		3A71CD191FC4B021000287FA /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD181FC4B021000287FA /* TopListView.swift */; };
+		3A71CD1B1FC4B06B000287FA /* AdvisorCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD1A1FC4B06B000287FA /* AdvisorCarouselView.swift */; };
+		3A71CD1E1FC4B105000287FA /* LatestAlertsCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD1D1FC4B105000287FA /* LatestAlertsCarouselView.swift */; };
+		3A71CD201FC4B150000287FA /* LatestAlertsCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD1F1FC4B150000287FA /* LatestAlertsCarouselView.xib */; };
+		3A71CD221FC4B1BB000287FA /* AccountCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD211FC4B1BB000287FA /* AccountCarouselView.xib */; };
+		3A71CD241FC4B1F8000287FA /* TopListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD231FC4B1F8000287FA /* TopListView.xib */; };
+		3A71CD261FC4B26A000287FA /* HoldingsTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD251FC4B26A000287FA /* HoldingsTableViewHeader.xib */; };
+		3A71CD281FC4B2BC000287FA /* HoldingsTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD271FC4B2BC000287FA /* HoldingsTableViewHeader.swift */; };
+		3A71CD2A1FC4B2E1000287FA /* HoldingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD291FC4B2E1000287FA /* HoldingTableViewCell.swift */; };
+		3A71CD2C1FC4B316000287FA /* AlertsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD2B1FC4B316000287FA /* AlertsTableViewCell.swift */; };
+		3A71CD2E1FC4B370000287FA /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD2D1FC4B370000287FA /* WebViewViewController.swift */; };
+		3A71CD301FC4B419000287FA /* AdvisorFullCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71CD2F1FC4B419000287FA /* AdvisorFullCarouselView.swift */; };
+		3A71CD321FC4B470000287FA /* AdvisorCarouselViewNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A71CD311FC4B470000287FA /* AdvisorCarouselViewNew.xib */; };
+		3AB3BD7F1FC4D13E000AD8E2 /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD7E1FC4D13E000AD8E2 /* Announcements.swift */; };
+		3AB3BD811FC4D16C000AD8E2 /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD801FC4D16C000AD8E2 /* AnnouncementsViewController.swift */; };
+		3AB3BD841FC4D1D0000AD8E2 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD831FC4D1D0000AD8E2 /* AppointmentsViewController.swift */; };
+		3AB3BD861FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD851FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift */; };
+		3AB3BD881FC4D237000AD8E2 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD871FC4D237000AD8E2 /* Appointment.swift */; };
+		3AB3BD8B1FC4D768000AD8E2 /* MyVaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD8A1FC4D768000AD8E2 /* MyVaultViewController.swift */; };
+		3AB3BD8D1FC4D810000AD8E2 /* MyVaultFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3BD8C1FC4D810000AD8E2 /* MyVaultFilesViewController.swift */; };
+		3AF7A4D61FC4DC0600922B76 /* StatementsBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4D51FC4DC0600922B76 /* StatementsBaseViewController.swift */; };
+		3AF7A4D81FC4DC4E00922B76 /* StatementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4D71FC4DC4E00922B76 /* StatementsCollectionViewCell.swift */; };
+		3AF7A4DA1FC4DC7300922B76 /* TradeConfirmationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4D91FC4DC7200922B76 /* TradeConfirmationsViewController.swift */; };
+		3AF7A4DC1FC4DC9C00922B76 /* TaxStatementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4DB1FC4DC9C00922B76 /* TaxStatementsViewController.swift */; };
+		3AF7A4DE1FC4DCC400922B76 /* QPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4DD1FC4DCC400922B76 /* QPRViewController.swift */; };
+		3AF7A4E01FC4DCE800922B76 /* BrokerageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4DF1FC4DCE800922B76 /* BrokerageViewController.swift */; };
+		3AF7A4E21FC4DD0900922B76 /* StatementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7A4E11FC4DD0900922B76 /* StatementsViewController.swift */; };
+		D369454252817FE0EACE7BF6 /* Pods_PayWell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F8A498070B78F2DBAA5812 /* Pods_PayWell.framework */; };
+		DBD21D32D68C8227835305A1 /* Pods_Generic_PayWell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11448EE8191F5A7E5682D3BC /* Pods_Generic_PayWell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A71CA7E1FC48EF4000287FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A71CA5E1FC48EF4000287FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A71CA651FC48EF4000287FA;
+			remoteInfo = PayWell;
+		};
+		3A71CA891FC48EF4000287FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A71CA5E1FC48EF4000287FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A71CA651FC48EF4000287FA;
+			remoteInfo = PayWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11448EE8191F5A7E5682D3BC /* Pods_Generic_PayWell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generic_PayWell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28613E981D24E9A55B0467D8 /* Pods-PayWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayWell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayWell/Pods-PayWell.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1BCFDD1FC4B57100077FE2 /* AdvisorFullCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvisorFullCarouselView.xib; sourceTree = "<group>"; };
+		3A1BCFDF1FC4B69E00077FE2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		3A71CA661FC48EF4000287FA /* PayWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A71CA691FC48EF4000287FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A71CA6B1FC48EF4000287FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A71CA6E1FC48EF4000287FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A71CA711FC48EF4000287FA /* PayWell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayWell.xcdatamodel; sourceTree = "<group>"; };
+		3A71CA731FC48EF4000287FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A71CA781FC48EF4000287FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A71CA7D1FC48EF4000287FA /* PayWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A71CA811FC48EF4000287FA /* PayWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWellTests.swift; sourceTree = "<group>"; };
+		3A71CA831FC48EF4000287FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A71CA881FC48EF4000287FA /* PayWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A71CA8C1FC48EF4000287FA /* PayWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWellUITests.swift; sourceTree = "<group>"; };
+		3A71CA8E1FC48EF4000287FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A71CCC61FC495D9000287FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A71CCC81FC496C0000287FA /* LoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		3A71CCCC1FC49780000287FA /* RestAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		3A71CCD01FC4991B000287FA /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		3A71CCD11FC4991B000287FA /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		3A71CCD21FC4991C000287FA /* UINavigationController+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Orientation.m"; sourceTree = "<group>"; };
+		3A71CCD31FC4991C000287FA /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		3A71CCD41FC4991C000287FA /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		3A71CCD51FC4991C000287FA /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		3A71CCD61FC4991C000287FA /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		3A71CCD71FC4991C000287FA /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		3A71CCD81FC4991C000287FA /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		3A71CCD91FC4991C000287FA /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		3A71CCDA1FC4991C000287FA /* UINavigationController+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Orientation.h"; sourceTree = "<group>"; };
+		3A71CCDB1FC4991C000287FA /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		3A71CCDC1FC4991C000287FA /* CustomSlidingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlidingViewController.swift; sourceTree = "<group>"; };
+		3A71CCDD1FC4991D000287FA /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		3A71CCDE1FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		3A71CCDF1FC4991D000287FA /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		3A71CCE81FC49ADB000287FA /* PayWell-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayWell-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A71CCEA1FC49C1B000287FA /* InteractiveAgentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveAgentViewController.swift; sourceTree = "<group>"; };
+		3A71CCEC1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveAgentTableViewCell.swift; sourceTree = "<group>"; };
+		3A71CCEE1FC49C7F000287FA /* AgentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentMessage.swift; sourceTree = "<group>"; };
+		3A71CCF11FC49D24000287FA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		3A71CCF61FC4A04B000287FA /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
+		3A71CCF81FC4A075000287FA /* Double+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Utils.swift"; sourceTree = "<group>"; };
+		3A71CCFB1FC4A226000287FA /* Advisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advisor.swift; sourceTree = "<group>"; };
+		3A71CCFE1FC4A275000287FA /* Holding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holding.swift; sourceTree = "<group>"; };
+		3A71CD011FC4A9F2000287FA /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		3A71CD031FC4AA1F000287FA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3A71CD061FC4AB1B000287FA /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		3A71CD091FC4ABDA000287FA /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		3A71CD0C1FC4AC76000287FA /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		3A71CD0E1FC4AE4A000287FA /* AdvisorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorViewController.swift; sourceTree = "<group>"; };
+		3A71CD101FC4AEB9000287FA /* HoldingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
+		3A71CD121FC4AF05000287FA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3A71CD141FC4AF3E000287FA /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		3A71CD161FC4AFDE000287FA /* AccountCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCarouselView.swift; sourceTree = "<group>"; };
+		3A71CD181FC4B021000287FA /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
+		3A71CD1A1FC4B06B000287FA /* AdvisorCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorCarouselView.swift; sourceTree = "<group>"; };
+		3A71CD1D1FC4B105000287FA /* LatestAlertsCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestAlertsCarouselView.swift; sourceTree = "<group>"; };
+		3A71CD1F1FC4B150000287FA /* LatestAlertsCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestAlertsCarouselView.xib; sourceTree = "<group>"; };
+		3A71CD211FC4B1BB000287FA /* AccountCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCarouselView.xib; sourceTree = "<group>"; };
+		3A71CD231FC4B1F8000287FA /* TopListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopListView.xib; sourceTree = "<group>"; };
+		3A71CD251FC4B26A000287FA /* HoldingsTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoldingsTableViewHeader.xib; sourceTree = "<group>"; };
+		3A71CD271FC4B2BC000287FA /* HoldingsTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsTableViewHeader.swift; sourceTree = "<group>"; };
+		3A71CD291FC4B2E1000287FA /* HoldingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingTableViewCell.swift; sourceTree = "<group>"; };
+		3A71CD2B1FC4B316000287FA /* AlertsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTableViewCell.swift; sourceTree = "<group>"; };
+		3A71CD2D1FC4B370000287FA /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		3A71CD2F1FC4B419000287FA /* AdvisorFullCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorFullCarouselView.swift; sourceTree = "<group>"; };
+		3A71CD311FC4B470000287FA /* AdvisorCarouselViewNew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvisorCarouselViewNew.xib; sourceTree = "<group>"; };
+		3AB3BD7E1FC4D13E000AD8E2 /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
+		3AB3BD801FC4D16C000AD8E2 /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		3AB3BD831FC4D1D0000AD8E2 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		3AB3BD851FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsTableViewCell.swift; sourceTree = "<group>"; };
+		3AB3BD871FC4D237000AD8E2 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		3AB3BD8A1FC4D768000AD8E2 /* MyVaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVaultViewController.swift; sourceTree = "<group>"; };
+		3AB3BD8C1FC4D810000AD8E2 /* MyVaultFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVaultFilesViewController.swift; sourceTree = "<group>"; };
+		3AF7A4D51FC4DC0600922B76 /* StatementsBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsBaseViewController.swift; sourceTree = "<group>"; };
+		3AF7A4D71FC4DC4E00922B76 /* StatementsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3AF7A4D91FC4DC7200922B76 /* TradeConfirmationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeConfirmationsViewController.swift; sourceTree = "<group>"; };
+		3AF7A4DB1FC4DC9C00922B76 /* TaxStatementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxStatementsViewController.swift; sourceTree = "<group>"; };
+		3AF7A4DD1FC4DCC400922B76 /* QPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPRViewController.swift; sourceTree = "<group>"; };
+		3AF7A4DF1FC4DCE800922B76 /* BrokerageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerageViewController.swift; sourceTree = "<group>"; };
+		3AF7A4E11FC4DD0900922B76 /* StatementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsViewController.swift; sourceTree = "<group>"; };
+		4836BD4897B36824DD4652A3 /* Pods_PayWellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayWellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491CA5F81849B4FD3396DAF2 /* Pods-PayWell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayWell.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayWell/Pods-PayWell.release.xcconfig"; sourceTree = "<group>"; };
+		67F8A498070B78F2DBAA5812 /* Pods_PayWell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayWell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756D1DF9D3F2CC13ED0E6969 /* Pods_PayWellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayWellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BEE21ACD9116BDC8B0473F /* Pods-Generic-PayWell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generic-PayWell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell.release.xcconfig"; sourceTree = "<group>"; };
+		DD53CB609AB38FE32A0263D1 /* Pods-Generic-PayWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generic-PayWell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A71CA631FC48EF4000287FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D369454252817FE0EACE7BF6 /* Pods_PayWell.framework in Frameworks */,
+				DBD21D32D68C8227835305A1 /* Pods_Generic_PayWell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA7A1FC48EF4000287FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA851FC48EF4000287FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D935AEC1F660CF2A49DC863 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28613E981D24E9A55B0467D8 /* Pods-PayWell.debug.xcconfig */,
+				491CA5F81849B4FD3396DAF2 /* Pods-PayWell.release.xcconfig */,
+				DD53CB609AB38FE32A0263D1 /* Pods-Generic-PayWell.debug.xcconfig */,
+				90BEE21ACD9116BDC8B0473F /* Pods-Generic-PayWell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A71CA5D1FC48EF4000287FA = {
+			isa = PBXGroup;
+			children = (
+				3A71CA681FC48EF4000287FA /* PayWell */,
+				3A71CA801FC48EF4000287FA /* PayWellTests */,
+				3A71CA8B1FC48EF4000287FA /* PayWellUITests */,
+				3A71CA671FC48EF4000287FA /* Products */,
+				1D935AEC1F660CF2A49DC863 /* Pods */,
+				4D74DA12B1E7C60446F1E5D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A71CA671FC48EF4000287FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CA661FC48EF4000287FA /* PayWell.app */,
+				3A71CA7D1FC48EF4000287FA /* PayWellTests.xctest */,
+				3A71CA881FC48EF4000287FA /* PayWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A71CA681FC48EF4000287FA /* PayWell */ = {
+			isa = PBXGroup;
+			children = (
+				3AF7A4D41FC4DBE900922B76 /* Statements */,
+				3AB3BD891FC4D72A000AD8E2 /* My Vault */,
+				3AB3BD821FC4D1B2000AD8E2 /* Appointments */,
+				3AB3BD7D1FC4D127000AD8E2 /* Announcements */,
+				3A71CD1C1FC4B0DB000287FA /* LatestAlerts */,
+				3A71CD0B1FC4AC59000287FA /* Notifications */,
+				3A71CD081FC4ABA3000287FA /* News */,
+				3A71CD051FC4AAFD000287FA /* Alerts */,
+				3A71CD001FC4A9D6000287FA /* Accounts */,
+				3A71CCFD1FC4A264000287FA /* Holding */,
+				3A71CCFA1FC4A202000287FA /* Advisor */,
+				3A71CCF51FC4A021000287FA /* Extensions */,
+				3A71CCC51FC495AF000287FA /* Login */,
+				3A71CCE91FC49BF1000287FA /* InteractiveAgent */,
+				3A71CCCA1FC49746000287FA /* Data */,
+				3A71CCCE1FC498EF000287FA /* ECSlidingViewController */,
+				3A71CCF01FC49CE6000287FA /* Dashboard */,
+				3A71CA691FC48EF4000287FA /* AppDelegate.swift */,
+				3A71CA6B1FC48EF4000287FA /* MainViewController.swift */,
+				3A71CA6D1FC48EF4000287FA /* Main.storyboard */,
+				3A71CA731FC48EF4000287FA /* Assets.xcassets */,
+				3A71CA781FC48EF4000287FA /* Info.plist */,
+				3A71CA701FC48EF4000287FA /* PayWell.xcdatamodeld */,
+				3A1BCFDF1FC4B69E00077FE2 /* LaunchScreen.xib */,
+			);
+			path = PayWell;
+			sourceTree = "<group>";
+		};
+		3A71CA801FC48EF4000287FA /* PayWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CA811FC48EF4000287FA /* PayWellTests.swift */,
+				3A71CA831FC48EF4000287FA /* Info.plist */,
+			);
+			path = PayWellTests;
+			sourceTree = "<group>";
+		};
+		3A71CA8B1FC48EF4000287FA /* PayWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CA8C1FC48EF4000287FA /* PayWellUITests.swift */,
+				3A71CA8E1FC48EF4000287FA /* Info.plist */,
+			);
+			path = PayWellUITests;
+			sourceTree = "<group>";
+		};
+		3A71CCC51FC495AF000287FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCC61FC495D9000287FA /* LoginViewController.swift */,
+				3A71CCC81FC496C0000287FA /* LoginTableViewCell.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3A71CCCA1FC49746000287FA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCCC1FC49780000287FA /* RestAPIManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A71CCCE1FC498EF000287FA /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCDC1FC4991C000287FA /* CustomSlidingViewController.swift */,
+				3A71CCD01FC4991B000287FA /* ECPercentDrivenInteractiveTransition.h */,
+				3A71CCDE1FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m */,
+				3A71CCD81FC4991C000287FA /* ECSlidingAnimationController.h */,
+				3A71CCD51FC4991C000287FA /* ECSlidingAnimationController.m */,
+				3A71CCD11FC4991B000287FA /* ECSlidingConstants.h */,
+				3A71CCDF1FC4991D000287FA /* ECSlidingInteractiveTransition.h */,
+				3A71CCD91FC4991C000287FA /* ECSlidingInteractiveTransition.m */,
+				3A71CCD31FC4991C000287FA /* ECSlidingSegue.h */,
+				3A71CCD61FC4991C000287FA /* ECSlidingSegue.m */,
+				3A71CCD41FC4991C000287FA /* ECSlidingViewController.h */,
+				3A71CCDD1FC4991D000287FA /* ECSlidingViewController.m */,
+				3A71CCDA1FC4991C000287FA /* UINavigationController+Orientation.h */,
+				3A71CCD21FC4991C000287FA /* UINavigationController+Orientation.m */,
+				3A71CCDB1FC4991C000287FA /* UIViewController+ECSlidingViewController.h */,
+				3A71CCD71FC4991C000287FA /* UIViewController+ECSlidingViewController.m */,
+				3A71CCE81FC49ADB000287FA /* PayWell-Bridging-Header.h */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		3A71CCE91FC49BF1000287FA /* InteractiveAgent */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCEA1FC49C1B000287FA /* InteractiveAgentViewController.swift */,
+				3A71CCEC1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift */,
+				3A71CCEE1FC49C7F000287FA /* AgentMessage.swift */,
+			);
+			path = InteractiveAgent;
+			sourceTree = "<group>";
+		};
+		3A71CCF01FC49CE6000287FA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCF11FC49D24000287FA /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3A71CCF51FC4A021000287FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCF61FC4A04B000287FA /* UIColor+Custom.swift */,
+				3A71CCF81FC4A075000287FA /* Double+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A71CCFA1FC4A202000287FA /* Advisor */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCFB1FC4A226000287FA /* Advisor.swift */,
+				3A71CD0E1FC4AE4A000287FA /* AdvisorViewController.swift */,
+				3A71CD1A1FC4B06B000287FA /* AdvisorCarouselView.swift */,
+				3A71CD2F1FC4B419000287FA /* AdvisorFullCarouselView.swift */,
+				3A71CD311FC4B470000287FA /* AdvisorCarouselViewNew.xib */,
+				3A1BCFDD1FC4B57100077FE2 /* AdvisorFullCarouselView.xib */,
+			);
+			path = Advisor;
+			sourceTree = "<group>";
+		};
+		3A71CCFD1FC4A264000287FA /* Holding */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CCFE1FC4A275000287FA /* Holding.swift */,
+				3A71CD101FC4AEB9000287FA /* HoldingsViewController.swift */,
+				3A71CD251FC4B26A000287FA /* HoldingsTableViewHeader.xib */,
+				3A71CD271FC4B2BC000287FA /* HoldingsTableViewHeader.swift */,
+				3A71CD291FC4B2E1000287FA /* HoldingTableViewCell.swift */,
+			);
+			path = Holding;
+			sourceTree = "<group>";
+		};
+		3A71CD001FC4A9D6000287FA /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CD011FC4A9F2000287FA /* AccountManager.swift */,
+				3A71CD031FC4AA1F000287FA /* Account.swift */,
+				3A71CD161FC4AFDE000287FA /* AccountCarouselView.swift */,
+				3A71CD181FC4B021000287FA /* TopListView.swift */,
+				3A71CD211FC4B1BB000287FA /* AccountCarouselView.xib */,
+				3A71CD231FC4B1F8000287FA /* TopListView.xib */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		3A71CD051FC4AAFD000287FA /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CD061FC4AB1B000287FA /* Alerts.swift */,
+				3A71CD141FC4AF3E000287FA /* AlertsViewController.swift */,
+				3A71CD2B1FC4B316000287FA /* AlertsTableViewCell.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		3A71CD081FC4ABA3000287FA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CD091FC4ABDA000287FA /* News.swift */,
+				3A71CD121FC4AF05000287FA /* NewsViewController.swift */,
+				3A71CD2D1FC4B370000287FA /* WebViewViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		3A71CD0B1FC4AC59000287FA /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CD0C1FC4AC76000287FA /* Notifications.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3A71CD1C1FC4B0DB000287FA /* LatestAlerts */ = {
+			isa = PBXGroup;
+			children = (
+				3A71CD1D1FC4B105000287FA /* LatestAlertsCarouselView.swift */,
+				3A71CD1F1FC4B150000287FA /* LatestAlertsCarouselView.xib */,
+			);
+			path = LatestAlerts;
+			sourceTree = "<group>";
+		};
+		3AB3BD7D1FC4D127000AD8E2 /* Announcements */ = {
+			isa = PBXGroup;
+			children = (
+				3AB3BD7E1FC4D13E000AD8E2 /* Announcements.swift */,
+				3AB3BD801FC4D16C000AD8E2 /* AnnouncementsViewController.swift */,
+			);
+			path = Announcements;
+			sourceTree = "<group>";
+		};
+		3AB3BD821FC4D1B2000AD8E2 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				3AB3BD831FC4D1D0000AD8E2 /* AppointmentsViewController.swift */,
+				3AB3BD851FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift */,
+				3AB3BD871FC4D237000AD8E2 /* Appointment.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		3AB3BD891FC4D72A000AD8E2 /* My Vault */ = {
+			isa = PBXGroup;
+			children = (
+				3AB3BD8A1FC4D768000AD8E2 /* MyVaultViewController.swift */,
+				3AB3BD8C1FC4D810000AD8E2 /* MyVaultFilesViewController.swift */,
+			);
+			path = "My Vault";
+			sourceTree = "<group>";
+		};
+		3AF7A4D41FC4DBE900922B76 /* Statements */ = {
+			isa = PBXGroup;
+			children = (
+				3AF7A4D51FC4DC0600922B76 /* StatementsBaseViewController.swift */,
+				3AF7A4D71FC4DC4E00922B76 /* StatementsCollectionViewCell.swift */,
+				3AF7A4D91FC4DC7200922B76 /* TradeConfirmationsViewController.swift */,
+				3AF7A4DB1FC4DC9C00922B76 /* TaxStatementsViewController.swift */,
+				3AF7A4DD1FC4DCC400922B76 /* QPRViewController.swift */,
+				3AF7A4DF1FC4DCE800922B76 /* BrokerageViewController.swift */,
+				3AF7A4E11FC4DD0900922B76 /* StatementsViewController.swift */,
+			);
+			path = Statements;
+			sourceTree = "<group>";
+		};
+		4D74DA12B1E7C60446F1E5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F8A498070B78F2DBAA5812 /* Pods_PayWell.framework */,
+				756D1DF9D3F2CC13ED0E6969 /* Pods_PayWellTests.framework */,
+				4836BD4897B36824DD4652A3 /* Pods_PayWellUITests.framework */,
+				11448EE8191F5A7E5682D3BC /* Pods_Generic_PayWell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A71CA651FC48EF4000287FA /* PayWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A71CA911FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWell" */;
+			buildPhases = (
+				C1D30E5E4452224B175F9E74 /* [CP] Check Pods Manifest.lock */,
+				3A71CA621FC48EF4000287FA /* Sources */,
+				3A71CA631FC48EF4000287FA /* Frameworks */,
+				3A71CA641FC48EF4000287FA /* Resources */,
+				F78098A70111E46B880AA996 /* [CP] Embed Pods Frameworks */,
+				33AA6B5BD828F44F021583C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayWell;
+			productName = PayWell;
+			productReference = 3A71CA661FC48EF4000287FA /* PayWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A71CA7C1FC48EF4000287FA /* PayWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A71CA941FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWellTests" */;
+			buildPhases = (
+				3A71CA791FC48EF4000287FA /* Sources */,
+				3A71CA7A1FC48EF4000287FA /* Frameworks */,
+				3A71CA7B1FC48EF4000287FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A71CA7F1FC48EF4000287FA /* PBXTargetDependency */,
+			);
+			name = PayWellTests;
+			productName = PayWellTests;
+			productReference = 3A71CA7D1FC48EF4000287FA /* PayWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A71CA871FC48EF4000287FA /* PayWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A71CA971FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWellUITests" */;
+			buildPhases = (
+				3A71CA841FC48EF4000287FA /* Sources */,
+				3A71CA851FC48EF4000287FA /* Frameworks */,
+				3A71CA861FC48EF4000287FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A71CA8A1FC48EF4000287FA /* PBXTargetDependency */,
+			);
+			name = PayWellUITests;
+			productName = PayWellUITests;
+			productReference = 3A71CA881FC48EF4000287FA /* PayWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A71CA5E1FC48EF4000287FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Pay Well";
+				TargetAttributes = {
+					3A71CA651FC48EF4000287FA = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					3A71CA7C1FC48EF4000287FA = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A71CA651FC48EF4000287FA;
+					};
+					3A71CA871FC48EF4000287FA = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A71CA651FC48EF4000287FA;
+					};
+				};
+			};
+			buildConfigurationList = 3A71CA611FC48EF4000287FA /* Build configuration list for PBXProject "PayWell" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A71CA5D1FC48EF4000287FA;
+			productRefGroup = 3A71CA671FC48EF4000287FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A71CA651FC48EF4000287FA /* PayWell */,
+				3A71CA7C1FC48EF4000287FA /* PayWellTests */,
+				3A71CA871FC48EF4000287FA /* PayWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A71CA641FC48EF4000287FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1BCFE01FC4B69E00077FE2 /* LaunchScreen.xib in Resources */,
+				3A1BCFDE1FC4B57100077FE2 /* AdvisorFullCarouselView.xib in Resources */,
+				3A71CD241FC4B1F8000287FA /* TopListView.xib in Resources */,
+				3A71CA741FC48EF4000287FA /* Assets.xcassets in Resources */,
+				3A71CD221FC4B1BB000287FA /* AccountCarouselView.xib in Resources */,
+				3A71CD201FC4B150000287FA /* LatestAlertsCarouselView.xib in Resources */,
+				3A71CD261FC4B26A000287FA /* HoldingsTableViewHeader.xib in Resources */,
+				3A71CD321FC4B470000287FA /* AdvisorCarouselViewNew.xib in Resources */,
+				3A71CA6F1FC48EF4000287FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA7B1FC48EF4000287FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA861FC48EF4000287FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33AA6B5BD828F44F021583C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D30E5E4452224B175F9E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generic-PayWell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78098A70111E46B880AA996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AI/AI.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UrbanAirship-iOS-SDK/AirshipKit.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AirshipKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Generic-PayWell/Pods-Generic-PayWell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A71CA621FC48EF4000287FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF7A4D81FC4DC4E00922B76 /* StatementsCollectionViewCell.swift in Sources */,
+				3A71CCC71FC495D9000287FA /* LoginViewController.swift in Sources */,
+				3A71CD191FC4B021000287FA /* TopListView.swift in Sources */,
+				3AF7A4DC1FC4DC9C00922B76 /* TaxStatementsViewController.swift in Sources */,
+				3A71CCF21FC49D24000287FA /* DashboardViewController.swift in Sources */,
+				3AB3BD861FC4D20B000AD8E2 /* AppointmentsTableViewCell.swift in Sources */,
+				3A71CCEB1FC49C1B000287FA /* InteractiveAgentViewController.swift in Sources */,
+				3A71CD281FC4B2BC000287FA /* HoldingsTableViewHeader.swift in Sources */,
+				3A71CD2A1FC4B2E1000287FA /* HoldingTableViewCell.swift in Sources */,
+				3A71CD131FC4AF05000287FA /* NewsViewController.swift in Sources */,
+				3AB3BD811FC4D16C000AD8E2 /* AnnouncementsViewController.swift in Sources */,
+				3A71CD0D1FC4AC76000287FA /* Notifications.swift in Sources */,
+				3AF7A4E21FC4DD0900922B76 /* StatementsViewController.swift in Sources */,
+				3A71CD151FC4AF3E000287FA /* AlertsViewController.swift in Sources */,
+				3A71CD071FC4AB1B000287FA /* Alerts.swift in Sources */,
+				3A71CD0F1FC4AE4A000287FA /* AdvisorViewController.swift in Sources */,
+				3AF7A4E01FC4DCE800922B76 /* BrokerageViewController.swift in Sources */,
+				3AB3BD8D1FC4D810000AD8E2 /* MyVaultFilesViewController.swift in Sources */,
+				3A71CD021FC4A9F2000287FA /* AccountManager.swift in Sources */,
+				3A71CD301FC4B419000287FA /* AdvisorFullCarouselView.swift in Sources */,
+				3A71CCFF1FC4A275000287FA /* Holding.swift in Sources */,
+				3A71CD041FC4AA1F000287FA /* Account.swift in Sources */,
+				3AF7A4DE1FC4DCC400922B76 /* QPRViewController.swift in Sources */,
+				3A71CD2C1FC4B316000287FA /* AlertsTableViewCell.swift in Sources */,
+				3A71CCE41FC4991D000287FA /* ECSlidingInteractiveTransition.m in Sources */,
+				3A71CA6C1FC48EF4000287FA /* MainViewController.swift in Sources */,
+				3A71CCE31FC4991D000287FA /* UIViewController+ECSlidingViewController.m in Sources */,
+				3A71CCE61FC4991D000287FA /* ECSlidingViewController.m in Sources */,
+				3A71CCE71FC4991D000287FA /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				3AB3BD8B1FC4D768000AD8E2 /* MyVaultViewController.swift in Sources */,
+				3A71CCE51FC4991D000287FA /* CustomSlidingViewController.swift in Sources */,
+				3A71CD111FC4AEB9000287FA /* HoldingsViewController.swift in Sources */,
+				3AF7A4D61FC4DC0600922B76 /* StatementsBaseViewController.swift in Sources */,
+				3A71CCE21FC4991D000287FA /* ECSlidingSegue.m in Sources */,
+				3AB3BD7F1FC4D13E000AD8E2 /* Announcements.swift in Sources */,
+				3A71CA721FC48EF4000287FA /* PayWell.xcdatamodeld in Sources */,
+				3A71CCEF1FC49C7F000287FA /* AgentMessage.swift in Sources */,
+				3A71CA6A1FC48EF4000287FA /* AppDelegate.swift in Sources */,
+				3A71CCE01FC4991D000287FA /* UINavigationController+Orientation.m in Sources */,
+				3A71CCF71FC4A04B000287FA /* UIColor+Custom.swift in Sources */,
+				3A71CCCD1FC49780000287FA /* RestAPIManager.swift in Sources */,
+				3A71CCC91FC496C0000287FA /* LoginTableViewCell.swift in Sources */,
+				3A71CD1B1FC4B06B000287FA /* AdvisorCarouselView.swift in Sources */,
+				3A71CD171FC4AFDE000287FA /* AccountCarouselView.swift in Sources */,
+				3AB3BD841FC4D1D0000AD8E2 /* AppointmentsViewController.swift in Sources */,
+				3A71CCED1FC49C4E000287FA /* InteractiveAgentTableViewCell.swift in Sources */,
+				3AF7A4DA1FC4DC7300922B76 /* TradeConfirmationsViewController.swift in Sources */,
+				3A71CCF91FC4A075000287FA /* Double+Utils.swift in Sources */,
+				3AB3BD881FC4D237000AD8E2 /* Appointment.swift in Sources */,
+				3A71CD2E1FC4B370000287FA /* WebViewViewController.swift in Sources */,
+				3A71CCFC1FC4A226000287FA /* Advisor.swift in Sources */,
+				3A71CD0A1FC4ABDA000287FA /* News.swift in Sources */,
+				3A71CD1E1FC4B105000287FA /* LatestAlertsCarouselView.swift in Sources */,
+				3A71CCE11FC4991D000287FA /* ECSlidingAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA791FC48EF4000287FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A71CA821FC48EF4000287FA /* PayWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71CA841FC48EF4000287FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A71CA8D1FC48EF4000287FA /* PayWellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A71CA7F1FC48EF4000287FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A71CA651FC48EF4000287FA /* PayWell */;
+			targetProxy = 3A71CA7E1FC48EF4000287FA /* PBXContainerItemProxy */;
+		};
+		3A71CA8A1FC48EF4000287FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A71CA651FC48EF4000287FA /* PayWell */;
+			targetProxy = 3A71CA891FC48EF4000287FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A71CA6D1FC48EF4000287FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A71CA6E1FC48EF4000287FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A71CA8F1FC48EF4000287FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A71CA901FC48EF4000287FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A71CA921FC48EF4000287FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD53CB609AB38FE32A0263D1 /* Pods-Generic-PayWell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paywell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayWell/ECSlidingViewController/PayWell-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A71CA931FC48EF4000287FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BEE21ACD9116BDC8B0473F /* Pods-Generic-PayWell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paywell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayWell/ECSlidingViewController/PayWell-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A71CA951FC48EF4000287FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayWell.app/PayWell";
+			};
+			name = Debug;
+		};
+		3A71CA961FC48EF4000287FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayWell.app/PayWell";
+			};
+			name = Release;
+		};
+		3A71CA981FC48EF4000287FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayWell;
+			};
+			name = Debug;
+		};
+		3A71CA991FC48EF4000287FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3WZ5KZ8TQ;
+				INFOPLIST_FILE = PayWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A71CA611FC48EF4000287FA /* Build configuration list for PBXProject "PayWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71CA8F1FC48EF4000287FA /* Debug */,
+				3A71CA901FC48EF4000287FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A71CA911FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71CA921FC48EF4000287FA /* Debug */,
+				3A71CA931FC48EF4000287FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A71CA941FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71CA951FC48EF4000287FA /* Debug */,
+				3A71CA961FC48EF4000287FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A71CA971FC48EF4000287FA /* Build configuration list for PBXNativeTarget "PayWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71CA981FC48EF4000287FA /* Debug */,
+				3A71CA991FC48EF4000287FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A71CA701FC48EF4000287FA /* PayWell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A71CA711FC48EF4000287FA /* PayWell.xcdatamodel */,
+			);
+			currentVersion = 3A71CA711FC48EF4000287FA /* PayWell.xcdatamodel */;
+			path = PayWell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A71CA5E1FC48EF4000287FA /* Project object */;
+}
